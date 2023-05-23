@@ -1,0 +1,223 @@
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+/* navbar CSS */
+.active {
+  color: #ec5242 !important;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+#cancel {
+  display: none;
+}
+
+.nav-link:hover {
+  color: #ec5242 !important;
+}
+
+.topbar li .nav-link {
+  color: white !important;
+}
+
+.navbtn {
+  border: 4px solid #ec5242 !important;
+  color: #ec5242 !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+}
+
+.full {
+  min-height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+#toggle-icon {
+  background-color: white;
+}
+
+/* header CSS */
+
+header {
+  background-image: url(images/background/header-background.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-heading {
+  font-weight: 1000;
+  font-size: 35px;
+  color: rgb(236, 82, 66);
+}
+
+.secondary-heading {
+  font-size: 32px;
+  color: #272a31;
+}
+
+.main-content {
+  font-size: 14px;
+  background-color: rgb(243, 242, 242);
+  border-radius: 1px;
+  border: 1px solid white;
+  color: #272a31;
+  font-weight: 500;
+}
+
+.bold-content {
+  font-size: 30px;
+  color: #272a31;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.end-content {
+  font-size: 16px;
+  color: #272a31;
+  font-weight: 500;
+}
+
+.main-courses {
+  background-image: url(images/background/background-dark.jpg);
+  background-size: cover;
+}
+
+/* main courses section CSS */
+.line {
+  width: 30px;
+  border: 1px solid #ec5242;
+  border-radius: 2px;
+}
+
+.line-featured {
+  width: 50px;
+  border: 1px solid #afafaf;
+  border-radius: 2px;
+}
+
+.heading-course {
+  color: #ec5242;
+  font-size: 13px;
+}
+
+.apply {
+  background-color: #ec5242 !important;
+}
+
+.course-div {
+  background-color: rgb(255, 254, 254, 0.1);
+}
+
+.course-div p {
+  font-size: 12px;
+  text-align: left;
+}
+
+/* Feature Courses CSS */
+.box {
+  position: relative;
+}
+
+.course {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -35px;
+}
+
+.heading-courses {
+  color: #ec5242;
+  font-size: 15px;
+}
+
+.para {
+  font-size: 13px;
+}
+
+.main-course-heading {
+  font-size: 20px;
+}
+
+/* footer CSS */
+footer {
+  background-color: rgb(238, 234, 234);
+}
+
+/* about page */
+.contact {
+  font-size: smaller;
+}
+
+.about {
+  background-image: url(images/about-page/about-header-background.jpg);
+  height: 550px;
+  background-size: cover;
+}
+
+.email {
+  font-size: smaller;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.background1 {
+  background: linear-gradient(0deg, rgb(236, 82, 66, 0.9), rgb(236, 82, 66, 0.7)), url(images/about-page/about-img-1.jpg);
+  background-size: cover;
+}
+
+.background2 {
+  background: linear-gradient(0deg, rgb(236, 82, 66, 0.9), rgb(236, 82, 66, 0.7)), url(images/about-page/about-img-2.jpg);
+  background-size: cover;
+}
+
+.about-footer {
+  background: rgb(0, 0, 0);
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    background-color: white;
+  }
+
+  .secondary-heading {
+    font-size: 32px;
+    color: #ec5242;
+  }
+
+  .main-content {
+    font-size: 14px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 1px;
+    border: 1px solid white;
+    color: #272a31;
+    font-weight: 500;
+  }
+
+  .bold-content {
+    font-size: 30px;
+    color: #272a31;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+
+  .end-content {
+    font-size: 16px;
+    color: #272a31;
+    font-weight: 500;
+  }
+
+  .course-div p {
+    text-align: center;
+  }
+}
