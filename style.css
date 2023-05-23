@@ -20,6 +20,15 @@ body {
   color: #ec5242 !important;
 }
 
+.topbar li .nav-link {
+  color: white !important;
+}
+
+.navbtn {
+  border: 4px solid #ec5242 !important;
+  color: #ec5242 !important;
+}
+
 .navbar-toggler {
   outline: none !important;
 }
