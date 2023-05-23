@@ -2,7 +2,7 @@
 <div align="center">
 <img src="images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-<h3><b>My Portfolio</b></h3>
+<h3><b>Capstone project</b></h3>
 
 </div>
 
