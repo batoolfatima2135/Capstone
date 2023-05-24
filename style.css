@@ -162,7 +162,7 @@ footer {
 
 .about {
   background-image: url(images/about-page/about-header-background.jpg);
-  height: 550px;
+  height: 450px;
   background-size: cover;
 }
 
@@ -191,6 +191,10 @@ footer {
     background-color: white;
   }
   #Featured-div .col-12:nth-child(n+3) { display: block; }
+
+  .about {
+    height: 550px;
+  }
 
   .secondary-heading {
     font-size: 32px;
