@@ -119,6 +119,7 @@ header {
 .course-div {
   background-color: rgb(255, 254, 254, 0.1);
 }
+#Featured-div .col-12:nth-child(n+3) { display: none; }
 
 .course-div p {
   font-size: 12px;
@@ -182,13 +183,14 @@ footer {
 }
 
 .about-footer {
-  background: rgb(0, 0, 0);
+  background: #343a40;
 }
 
 @media only screen and (min-width: 768px) {
   .navbar {
     background-color: white;
   }
+  #Featured-div .col-12:nth-child(n+3) { display: block; }
 
   .secondary-heading {
     font-size: 32px;
