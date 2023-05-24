@@ -95,3 +95,12 @@ courses.forEach((course) => {
   detail.className = 'para';
   detailCol.appendChild(detail);
 });
+
+const seeMore = document.getElementById('seemore');
+seeMore.addEventListener('click', () => {
+  const child = document.querySelectorAll('#Featured-div .col-12:nth-child(n+3)');
+  child.forEach((c) => {
+    c.style.display = 'block';
+    seeMore.style.display = 'none';
+  });
+});
