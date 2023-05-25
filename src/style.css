@@ -50,7 +50,7 @@ body {
 /* header CSS */
 
 header {
-  background-image: url(../Assets/background/header-background.jpg);
+  background-image: url(../../Assets/background/header-background.jpg);
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;

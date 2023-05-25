@@ -5,36 +5,36 @@ const courses = [
   {
     name: 'Javascript',
     heading: 'programming language that is one of the core technologies',
-    img: 'Assets/courses/javascript.png',
+    img: '../Assets/courses/javascript.png',
     description: "JavaScript is the world's most popular programming language JavaScript is the programming language of the Web. JavaScript is easy to learn.This tutorial will teach you JavaScript from basic to advanced.",
   },
   {
     name: 'HTML',
-    img: 'Assets/courses/html.png',
+    img: '../Assets/courses/html.png',
     heading: 'HTML is the standard markup language for Web pages',
     description: 'HTML is the standard markup language for Web pages.With HTML you can create your own Website.HTML is easy to learn - You will enjoy it!',
   },
   {
     name: 'Java',
-    img: 'Assets/courses/java.png',
+    img: '../Assets/courses/java.png',
     heading: 'Java is used to develop mobile apps, web apps, desktop apps, games and much more.',
     description: 'Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.',
   },
   {
     name: 'CSS',
-    img: 'Assets/courses/css.png',
+    img: '../Assets/courses/css.png',
     heading: 'CSS describes how HTML elements are to be displayed on screen',
     description: 'CSS stands for Cascading Style Sheets CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once',
   },
   {
     name: 'PHP',
     heading: 'A popular general-purpose scripting language ',
-    img: 'Assets/courses/php.png',
+    img: '../Assets/courses/php.png',
     description: "PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages. PHP is a widely-used, free, and efficient alternative competitors such as Microsoft's ASP.",
   },
   {
     name: 'Python',
-    img: 'Assets/courses/python.png',
+    img: '../Assets/courses/python.png',
     heading: 'Python can be used on a server to create web applications.',
     description: 'Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation  via the off-side rule',
   },
@@ -56,9 +56,9 @@ courses.forEach((course) => {
   imgCol.classList.add('col-lg-3', 'col-md-4', 'col-4');
   row.appendChild(imgCol);
 
-  // Creating Assets
+  // Creating ../Assets
   const imgBox = new Image(50);
-  imgBox.src = 'Assets/icons/orange-block.jpg';
+  imgBox.src = '../Assets/icons/orange-block.jpg';
   imgBox.className = 'box';
   imgCol.appendChild(imgBox);
 
