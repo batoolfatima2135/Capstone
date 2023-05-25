@@ -182,8 +182,10 @@ footer {
   background-size: cover;
 }
 
-.about-footer {
-  background: #343a40;
+
+.mob-text
+{
+  color: #272a31;
 }
 
 @media only screen and (min-width: 768px) {
@@ -209,7 +211,9 @@ footer {
     color: #272a31;
     font-weight: 500;
   }
-
+  .about-footer {
+    background: #343a40;
+  }
   .bold-content {
     font-size: 30px;
     color: #272a31;
@@ -226,4 +230,14 @@ footer {
   .course-div p {
     text-align: center;
   }
+  .mob-text
+  {
+    color: aliceblue;
+  }
+  .text
+  {
+    color: aliceblue !important;
+  }
+
+
 }
