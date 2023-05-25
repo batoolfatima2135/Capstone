@@ -79,7 +79,6 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-cd Portfolio-Mobile-First
 git clone https://github.com/batoolfatima2135/Capstone.git
 ```
 
