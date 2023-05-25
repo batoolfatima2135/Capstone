@@ -50,7 +50,7 @@ body {
 /* header CSS */
 
 header {
-  background-image: url(../Assets/background/header-background.jpg);
+  background-image: url(../assets/background/header-background.jpg);
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@ header {
 }
 
 .main-courses {
-  background-image: url(../Assets/background/background-dark.jpg);
+  background-image: url(../assets/background/background-dark.jpg);
   background-size: cover;
 }
 
@@ -161,8 +161,8 @@ footer {
 }
 
 .about {
-  background-image: url(../Assets/about-page/about-header-background.jpg);
-  height: 450px;
+  background-image: url(../assets/about-page/about-header-background.jpg);
+  height: 600px;
   background-size: cover;
 }
 
@@ -173,12 +173,12 @@ footer {
 }
 
 .background1 {
-  background: linear-gradient(0deg, rgb(236, 82, 66, 0.9), rgb(236, 82, 66, 0.7)), url(../Assets/about-page/about-img-1.jpg);
+  background: linear-gradient(0deg, rgb(236, 82, 66, 0.9), rgb(236, 82, 66, 0.7)), url(../assets/about-page/about-img-1.jpg);
   background-size: cover;
 }
 
 .background2 {
-  background: linear-gradient(0deg, rgb(236, 82, 66, 0.9), rgb(236, 82, 66, 0.7)), url(../Assets/about-page/about-img-2.jpg);
+  background: linear-gradient(0deg, rgb(236, 82, 66, 0.9), rgb(236, 82, 66, 0.7)), url(../assets/about-page/about-img-2.jpg);
   background-size: cover;
 }
 
